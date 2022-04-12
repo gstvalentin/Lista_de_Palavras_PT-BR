@@ -1,6 +1,6 @@
 from unidecode import unidecode
 
-dicionario = open('br-utf8.txt', 'r', encoding='utf-8').readlines()[0:10] #!! BASTAMTE CUIDADO AO IMPORTAR TODAS AS PALAVRAS
+dicionario = open('br-utf8.txt', 'r', encoding='utf-8').readlines()[0:10] #!! BASTANTE CUIDADO AO IMPORTAR TODAS AS PALAVRAS
 #! SÃO MAIS DE 250K DE ITENS QUE VOCÊ IRÁ COLOCAR EM SUA LISTA
 #! PARA IMPORTAR TODAS, APAGUE A SEGUINTE PARTE DO CÓDIGO "[0:10]"
 lista_palavras = []
